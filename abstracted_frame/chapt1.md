@@ -8,9 +8,10 @@
 ### 1.3 网络核心
 
 - **分组交换中** 端到端对message 传输靠着packet switch 主要为：
+  
   1. router
   2. link-layer switch
-
+  
 - store and forward transmission（储存转发传输）：需要switch完整接受到一份分组 才能开始传输
 
   ​    端到端一个分组的传输时延：
@@ -43,7 +44,9 @@
 
 ### 1.4 分组交换网中的时延，丢包（packet loss）和吞吐量（througput）（视频）
 
-![image-20230609174315548](/Users/wujunwei/Desktop/ustc-zheng-cn/image-20230609174315548.png)
+![Outlook](./ustc-zheng-cn/outlook.png)
+
+
 
 #### ***<u>概念与补充</u>***
 
@@ -61,7 +64,7 @@ TraceRt测试：RTT round trip time 往返延迟
 
 ----
 
-
+![outlook](./outlook.png)
 
 - 四类分组延时
   1. 节点处理延时 nodal proceeding
